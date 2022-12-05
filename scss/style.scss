@@ -1,0 +1,166 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+// hojas secundarias
+@import "utilidades/footer";
+@import "utilidades/transform-img";
+@import "utilidades/contactos";
+@import "utilidades/mediaqueries";
+@import "utilidades/clientes";
+@import "utilidades/servicios";
+@import "utilidades/nosotros";
+
+
+/* ESTILOS HOME  */
+
+header {
+  height: 100px;
+  font-size: 13px;
+  background-color: #29abe2;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header img {
+  width: 300px;
+}
+
+header .menu a {
+  margin: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: whitesmoke;
+  transition: 0.4s;
+}
+
+.mostrar-menu,
+.esconder-menu {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  transition: 0.4s;
+}
+
+.mostrar-menu {
+  order: 1;
+}
+
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover {
+  color: black;
+}
+
+.check {
+  display: none;
+}
+
+/* main */
+
+.bienvenidos {
+  height: 15rem;
+  display: flex;
+  flex-grow: 1;
+  h1 {
+    margin: 50px;
+    font-size: 100px;
+    text-align: center;
+  }
+}
+
+.banner {
+  padding: 0 50px;
+  background-image: url(../img/banner.jpg);
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.contenido-banner h2 {
+  text-shadow: 1px 1px 5px black;
+  font-size: 50px;
+  font-weight: 400px;
+}
+
+.contenido-banner h3 p {
+  margin-top: 5rem;
+  text-align: start;
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+  font-weight: 10px;
+}
+
+.contenido-banner {
+  position: relative;
+  color: whitesmoke;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.personas {
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  div {
+    padding: 30px 30px;
+    p {
+      margin: 20px;
+      color: darkgrey;
+      font-size: 20px;
+    }
+  }
+}
+
+.boton-saber-mas {
+  color: black;
+  display: inline-block;
+  padding: 10px 30px;
+  border: 3px solid #29abe2;
+  border-radius: 30px;
+  margin-top: 15px;
+  .boton-saber-mas:hover {
+    background-color: #29abe2;
+    transition: 0.5s;
+  }
+}
+
+.iconos {
+  padding: 0 50px;
+  background-color: darkgrey;
+  .contenido-iconos {
+    padding: 50px 50px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    div {
+      flex: 1;
+      margin: 50px 0;
+      h4 {
+        margin: 10px;
+        font-size: 30px;
+        color: whitesmoke;
+      }
+    }
+  }
+}
+
+.iconos {
+  img {
+    height: 100px;
+    animation-name: img-latido;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 4s;
+  }
+}

@@ -1,0 +1,62 @@
+/*contactos*/
+
+.contenedor {
+  height: 1000px;
+  max-width: 100%;
+  background: url(../img/fondo-contacto.jpg);
+  background-size: cover;
+  display: flex;
+  .form {
+    background: rgba(0, 0, 0, 0.6);
+    max-width: 300px;
+    padding: 5px 35px;
+    margin: 150px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+    .form-label {
+      font-size: 20px;
+      color: #29abe2;
+      position: relative;
+    }
+  }
+}
+
+.contenedor .form .form-input,
+.form-textarea {
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #29abe2;
+  width: 100%;
+  height: 25px;
+  padding: 12px;
+  margin-bottom: 30px;
+  border-bottom: 2px;
+}
+
+.contenedor .form .boton-submit {
+  width: 100%;
+  outline: none;
+  background-color: #29abe2;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.contenedor .form .boton-submit:hover {
+  background: #6fd1fc;
+}
+
+.form-header h1 {
+  margin: 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.map {
+  display: flex;
+  align-items: baseline;
+}
+
+
