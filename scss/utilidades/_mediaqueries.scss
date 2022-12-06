@@ -31,12 +31,12 @@
     right: 40px;
   }
 
-  .check:checked ~ .menu {
+  #check:checked ~ .menu {
     right: 0;
   }
 
   /* PERSONAS */
-  .personas {
+  #personas {
     flex-direction: column;
   }
 
@@ -93,7 +93,7 @@
   }
 
   /* PERSONAS */
-  .personas {
+  #personas {
     flex-direction: column;
   }
 
@@ -106,6 +106,7 @@
   .form-label {
     flex-direction: column;
   }
+
   /* CLIENTES */
 
   .galeria-container {
