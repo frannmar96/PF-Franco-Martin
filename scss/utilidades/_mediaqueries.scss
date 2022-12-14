@@ -36,7 +36,7 @@
   }
 
   /* PERSONAS */
-  #personas {
+  .personas {
     flex-direction: column;
   }
 
@@ -45,15 +45,14 @@
     flex-direction: column;
   }
 
-  /* FORMULARIO */
-  .form-label {
-    flex-direction: column;
-  }
-
   /* CLIENTES */
 
   .galeria-container {
-    grid-template-columns: repeat(4, 1fr);
+    display: block;
+  }
+
+  .formulario {
+    width: 100%;
   }
 }
 
@@ -93,18 +92,13 @@
   }
 
   /* PERSONAS */
-  #personas {
+  .personas {
     flex-direction: column;
   }
 
   /* ICONOS */
   .contenido-iconos {
-    flex-direction: column;
-  }
-
-  /* FORMULARIO */
-  .form-label {
-    flex-direction: column;
+    display: block;
   }
 
   /* CLIENTES */
